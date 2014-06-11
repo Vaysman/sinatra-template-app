@@ -12,6 +12,7 @@ if "%~1"=="-FIXED_CTRL_C" (
    GOTO :END
 )
 
+@start .\data\index.html
 @bundle exec rackup
 
 :END
