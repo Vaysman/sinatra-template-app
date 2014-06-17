@@ -1,4 +1,5 @@
+$LOAD_PATH << "."
 require "sinatra"
-require_relative "lib/server"
+require "lib/server"
 
 run Sinatra::Application
